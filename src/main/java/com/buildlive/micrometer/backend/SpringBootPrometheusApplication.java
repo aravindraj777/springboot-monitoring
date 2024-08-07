@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootPrometheusApplication {
 
-	@GetMapping
+	@GetMapping("/message")
 	public String getStarterMessage(){
 		return "Started working";
 	}
